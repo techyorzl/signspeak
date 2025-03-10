@@ -18,8 +18,8 @@ model.eval()
 signs_to_words = {0: "hello", 1: "help", 2: "i", 3: "no", 4: "please", 
                   5: "sorry", 6: "stop", 7: "thank you", 8: "yes", 9: "you"}
 
-GEMINI_API_KEY = "AIzaSyDKSMLpXWjoMVB-SRAkZpzaDXSqFHwKr40"
-ELEVENLABS_API_KEY = "sk_6a32898ebb49e17e37094627ed85de9d903d6f3e4e5702bf"
+GEMINI_API_KEY = ""
+ELEVENLABS_API_KEY = ""
 
 client = ElevenLabs(
   api_key='sk_6a32898ebb49e17e37094627ed85de9d903d6f3e4e5702bf',
